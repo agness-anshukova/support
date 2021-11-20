@@ -1,0 +1,16 @@
+.join-link-item {
+	display: flex;
+	background-color: #F9F9F9;
+	width: 56px;
+	height: 56px;
+	border-radius: 13.3311px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	flex-grow: 0; 
+	flex-shrink: 0;
+}
+
+.join-link-item img {
+
+}

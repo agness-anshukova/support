@@ -1,0 +1,140 @@
+.join {
+	padding-bottom: 80px;
+}
+
+.join-block {
+	max-width: 996px;
+	min-height: 166px;
+	background-color: #fff;
+	box-shadow: 0px 20px 60px rgba(26, 26, 26, 0.05);
+	border-radius: 40px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 42px;
+	padding-bottom: 42px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 82px;
+}
+
+.join-subheading {
+	font-family: Museo Sans Cyrl;
+	font-style: normal;
+	font-weight: 600;
+	font-size: 15px;
+	line-height: 120%;
+	color: #1A1A1A;
+}
+
+.join-heading {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 120%;
+	color: #1A1A1A;
+}
+
+.join-link-list {
+	display: flex;
+	flex-direction: row;
+}
+
+.join-link-list li + li {
+	margin-left: 14px;
+}
+
+@media (max-width: 990px) {
+	.join-link-list li + li {
+		margin-left: 10px;
+	}
+}
+
+@media (max-width: 920px) {
+	.join-block {
+		justify-content: center;
+	}
+
+	.join-header {
+		text-align: center;
+	}
+
+	.join-header + * {
+		margin-top: 20px;
+	}
+
+}
+
+@media (max-width: 519px) {
+	.join-link-list {
+		max-width: 85%;
+		margin-left: auto;
+		margin-right: auto;
+		flex-wrap: wrap;
+	}
+
+	.join-link-list li:nth-child(5) {
+		margin-left: 0px;
+	}
+
+	.join-link-list li:nth-child(5), 
+	.join-link-list li:nth-child(6){
+		margin-top: 8px;
+	}
+
+	.join-link-list {
+	    justify-content: center;
+	}
+}
+
+@media (max-width: 460px) {
+	
+	.join-heading {
+	    font-size: 30px;
+	}
+
+	.join-link-list li:nth-child(4) {
+		margin-left: 0px;
+	}
+
+	.join-link-list li:nth-child(5) {
+		margin-left: 10px;
+	}
+
+	.join-link-list li:nth-child(4),
+	.join-link-list li:nth-child(5), 
+	.join-link-list li:nth-child(6){
+		margin-top: 8px;
+	}
+}
+
+@media (max-width: 385px) {
+	.join-heading {
+	    font-size: 25px;
+	}
+
+	.join-link-list {
+		max-width: 80%;
+	}
+
+	.join-link-list li:nth-child(3),
+	.join-link-list li:nth-child(5) 
+	{
+		margin-left: 0px;
+	}
+
+	.join-link-list li:nth-child(4) {
+		margin-left: 10px;
+	}
+
+	.join-link-list li:nth-child(3),
+	.join-link-list li:nth-child(4),
+	.join-link-list li:nth-child(5), 
+	.join-link-list li:nth-child(6){
+		margin-top: 8px;
+	}
+
+}

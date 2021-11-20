@@ -1,0 +1,19 @@
+.reference {
+	padding-bottom: 80px;
+}
+
+.reference-heading {
+	font-weight: 600;
+	font-size: 40px;
+	line-height: 120%;
+	text-align: center;
+	color: #1A1A1A;
+}
+
+.reference-heading + * {
+	margin-top: 32px;
+}
+
+.reference-list li + li{
+	margin-top: 12px;
+}
